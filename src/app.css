@@ -1,0 +1,27 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body p,
+body span {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  letter-spacing: .2em;
+}
+
+:root [data-theme='cerberus'] {
+  --base-font-family: system-ui;
+  --heading-font-family: system-ui;
+}
